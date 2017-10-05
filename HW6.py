@@ -1,5 +1,7 @@
 #alyson rosenberg hw6
 
+#part A of the homework 
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import ssl
@@ -20,3 +22,5 @@ for span in spans:
 	numbs.append(int(span.string))
 
 print (sum(numbs))
+
+
